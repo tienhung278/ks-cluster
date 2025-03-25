@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main>
-      <h1>Welcome to the Cluster app</h1>
+      <h1>Welcome to the Cluster app (BRANCH-2)</h1>
       <p>Click on a cluster below to learn more.</p>
       <ul>
         {clusters.map((cluster: Cluster) => {
